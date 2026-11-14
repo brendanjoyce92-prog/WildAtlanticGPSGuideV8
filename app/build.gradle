@@ -1,0 +1,17 @@
+
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    namespace 'com.wildatlantic.gpsguide'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.wildatlantic.gpsguide'
+        minSdk 26
+        targetSdk 35
+        versionCode 8
+        versionName '8.0'
+    }
+}
